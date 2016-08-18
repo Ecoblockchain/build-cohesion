@@ -1,0 +1,24 @@
+{
+  "name": "build-cohesion",
+  "description": "A framework for simple 2D video games.",
+  "version": "0.0.0",
+  "author": "sjohnson@sjohnsonaz.com",
+  "main": "dist/bundle/main.js",
+  "typings": "dist/bundle/main.d.ts",
+  "scripts": {
+    "install": "typings install",
+    "build": "tsc",
+    "prepublish": "tsc",
+    "test": "jest",
+    "browser": "webpack --config webpack.config.js",
+    "dev": "webpack --config webpack.config.js --watch"
+  },
+  "dependencies": {
+    "matter-js": "^0.10.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "build-cohesion",
+  "dependencies": {},
+  "globalDependencies": {
+    "matter-js": "registry:dt/matter-js#0.9.1+20160317120654"
+  }
+}
